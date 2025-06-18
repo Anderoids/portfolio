@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guduru Manasa | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #1e3a8a, #9333ea);
+      color: #f8fafc;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      background: #0f172a;
+      border-radius: 2rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    h1, h2 {
+      color: #7dd3fc;
+    }
+    h2.section-title {
+      border-bottom: 2px solid #9333ea;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .skills-btns button {
+      margin: 0.25rem;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      background: #1e293b;
+      color: #7dd3fc;
+      border: 2px solid #7dd3fc;
+      cursor: pointer;
+    }
+    .skills-btns button.active {
+      background: #7dd3fc;
+      color: #1e293b;
+    }
+    .card {
+      border: 2px solid #9333ea;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      background-color: #1e293b;
+    }
+    .project-title { color: #34d399; font-weight: bold; }
+    .role-title { color: #facc15; font-weight: bold; }
+    .edu-title { color: #7dd3fc; font-weight: bold; }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(to right, #1e3a8a, #9333ea);
+      color: #f8fafc;
+      border-radius: 0 0 2rem 2rem;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: linear-gradient(to bottom right, #3b82f6, #9333ea);
+      color: white;
+      font-size: 1.5rem;
+      transition: transform 0.3s ease, background 0.3s ease;
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      transform: scale(1.2);
+      background: linear-gradient(to bottom right, #10b981, #3b82f6);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Guduru Manasa</h1>
+    <p><em>Aspiring Quantum AI Researcher | Final Year AIML Student | Passionate about Tech for Good</em></p>
+
+    <h2 class="section-title">About Me</h2>
+    <p>I'm deeply passionate about Quantum Computing, AI, and Nanotechnology. I aim to pursue advanced research that contributes to science and society, bridging futuristic technology with real-world impact.</p>
+
+    <h2 class="section-title">Education</h2>
+    <div class="card">
+      <p class="edu-title">B.Tech in Artificial Intelligence & Machine Learning</p>
+      <p>Anurag University, Hyderabad | Expected Graduation: 2026</p>
+    </div>
+    <div class="card">
+      <p class="edu-title">PCM (Non-Medical) - Telangana Board of Secondary Education</p>
+      <p>Trividiyaa Junior College, Hyderabad | Graduated: 2022</p>
+    </div>
+    <div class="card">
+      <p class="edu-title">CBSE</p>
+      <p>St.Andrews School, Hyderabad | Graduated: 2020</p>
+    </div>
+
+    <h2 class="section-title">Experience</h2>
+    <div class="card">
+      <p class="role-title">Research Intern – Quantum DR Project</p>
+      <p>Developed a hybrid diagnostic model combining CNN and Variational Quantum Circuits to detect Diabetic Retinopathy. Used CUDA-Q simulation and Qiskit for evaluation.</p>
+    </div>
+
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <p><strong>Frontend:</strong> React.js, Tailwind CSS, HTML/CSS, Framer Motion</p>
+      <p><strong>Backend:</strong> Python, Java, MongoDB, Firebase</p>
+      <p><strong>Research:</strong> Quantum Computing (Qiskit, CUDA-Q), NLP, Machine Learning, Academic Writing</p>
+    </div>
+
+    <h2 class="section-title">Projects</h2>
+    <div class="card">
+      <p class="project-title">Anime Recommendation System</p>
+      <p>Hybrid model using Collaborative Filtering and Content-Based Filtering with dynamic weight learning via neural networks.</p>
+    </div>
+    <div class="card">
+      <p class="project-title">Quantum DR Diagnosis</p>
+      <p>Detecting Diabetic Retinopathy using VQCs + CNNs on simulated retinal data. CUDA-Q supported.</p>
+    </div>
+    <div class="card">
+      <p class="project-title">Depression Prediction using Twitter Dataset</p>
+      <p>Built an NLP-based classifier to identify potential depression-related tweets using logistic regression and transformer-based embeddings.</p>
+    </div>
+
+    <h2 class="section-title">Roles & Activities</h2>
+    <div class="card">
+      <ul>
+        <li>Content Lead – IEEE CIS Student Branch @ AU</li>
+        <li>Content Volunteer – IEEE YESIST12</li>
+        <li>Organizer – National Hackathon @ AU</li>
+      </ul>
+    </div>
+
+   
+    <h2 class="section-title">Connect With Me</h2>
+    <div class="social-links">
+      <a href="https://github.com/Anderoids" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/manasa-guduru-29-apr2004" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:manasa123guduru@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+  <footer>
+    <p>© 2025 Guduru Manasa </p>
+  </footer>
+</body>
+</html>
